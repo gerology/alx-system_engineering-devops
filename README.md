@@ -1,3 +1,2 @@
 #!/bin/bash
-repository for bash projects using ubuntu 20.04 for testing
-  
+task 0"Where am i?"
