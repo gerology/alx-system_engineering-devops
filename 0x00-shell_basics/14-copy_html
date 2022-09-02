@@ -1,2 +1,2 @@
 #!/bin/bash
-cp *.html --compare-dest=../ ./ ../
+cp *.html -R --compare-dest=../ ./ ../
