@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+""" Reciieve text on the other side between server and client """
+
+nc -l localhost 98
+
