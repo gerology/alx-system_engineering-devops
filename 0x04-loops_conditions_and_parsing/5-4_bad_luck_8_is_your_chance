@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# loops from 1 to 10,
+# displaying bad luck for the 4th loop iteration,
+# good luck for the 8th loop iteration
+# and Best School for the other iterations
+
+y=0
+z="Best School"
+b="bad luck"
+c="good luck"
+while [ $y -lt 10 ]
+do
+
+   if [ $y -eq 4 ]
+   then
+       echo "$b"
+   elif [ $y -eq 8 ]
+   then
+       echo "$c"
+   else
+       echo "$z"
+   fi
+   (( y++ ))
+done
