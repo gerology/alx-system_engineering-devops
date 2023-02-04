@@ -11,6 +11,7 @@ c="good luck"
 while [ $y -lt 10 ]
 do
 
+   (( y++ ))
    if [ $y -eq 4 ]
    then
        echo "$b"
@@ -20,5 +21,4 @@ do
    else
        echo "$z"
    fi
-   (( y++ ))
 done
