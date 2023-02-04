@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# displays numbers from 1 to 20 but
+# displays "bad luck from China", "bad luck from japan "
+# and "bad luck from italy" for 4th, 9th and 17th iterations respectively
+
+i=0
+while [ $i -le 20 ]
+do
+  echo "$i"
+  case $i in
+        "4") echo "bad luck from China";;
+	"9") echo "bad luck from Japan";;
+        "17") echo "bad luck from Italy";;
+  esac
+ (( i++ ))
+done
