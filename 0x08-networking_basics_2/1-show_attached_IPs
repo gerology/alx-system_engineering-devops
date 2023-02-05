@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
-""" display all active IPv4 IPs on a machine of execution """
-
+# display all active IPv4 IPs on a machine of execution
 
 ifconfig | grep -Eo "inet (addr:)?([0-9]*\.){3}[0-9]*" | cut -b 5-
 
