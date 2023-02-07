@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #displays information about the School.
 
 if [ -e "School" ]
