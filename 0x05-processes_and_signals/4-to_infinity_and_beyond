@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # displays "To infinity and beyond" indefinitely
 
-int i=2
+i=2
 
-while [ $i=2 ]
+while [ $i -eq 2 ]
 do
 	echo "To infinity and beyond"
 	sleep 2
