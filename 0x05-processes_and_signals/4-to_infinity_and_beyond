@@ -2,7 +2,9 @@
 # displays "To infinity and beyond" indefinitely
 
 int i=2
-while [ i=2 ]
+
+while [ $i=2 ]
 do
 	echo "To infinity and beyond"
+	sleep 2
 done
