@@ -2,6 +2,6 @@
 # Only displays the username, user id, and user home directory path 
 #   for the content of /etc/passwd file.
 
-while read passwd; do
+while read -r passwd; do
   echo "$passwd" | cut -d ':' -f1,3,6
 done < "/etc/passwd"
